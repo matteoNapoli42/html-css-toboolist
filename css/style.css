@@ -48,11 +48,10 @@ nav>*{
 
 main{
     padding-left: 1.5rem;
-    margin: 1px 9rem 1rem;
+    margin: 1px 9rem auto;
     border: 1rem solid var(--colorWhite);;
     background-color: var(--colorWhite);
-    margin-bottom: auto;
-    padding-bottom: 180px;
+    padding-bottom: 18px;
 }
 h2{
     background-color: var(--colorWhite);
@@ -94,5 +93,4 @@ li{
 
 #buttonColorPink{
     background-color: rgb(207, 68, 172);
-
 }

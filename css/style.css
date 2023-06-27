@@ -3,32 +3,25 @@
 }
 
 :root{
-    --colorForBackgroundwhite : white;
+    --colorWhite : white;
 }
 #headerStyle{
     width: 5000px;
-    background-color: var(--colorForBackgroundwhite) ;
+    background-color: var(--colorWhite) ;
 }
 
 #headerElements{
     display: inline-flex;
-    background-color: var(--colorForBackgroundwhite);
+    background-color: var(--colorWhite);
 }
 
 #colorBackground{
-    background-color: var(--colorForBackgroundwhite);
+    background-color: var(--colorWhite);
 }
 
 nav{
-    margin-top: 3rem;
-    border:  1rem solid var(--colorForBackgroundwhite);
-    background-color: var(--colorForBackgroundwhite);
+    margin: 3rem 9rem 1rem;
+    border:  1rem solid var(--colorWhite);
+    background-color: var(--colorWhite);
 }
 
-#puls1{
-    color: blue;
-}
-
-#puls2{
-
-}

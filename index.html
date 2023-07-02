@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Mulish:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,45 +10,75 @@
 <body>
     <header>
         <div id="headerStyle">
-            <span id="headerElements"><img src="img/logo copia.png" alt="Logo Toboolist" width="50"><h1 id="colorBackground">Toboolist</h1></span>
+            <span id="headerElements"><img src="img/logo copia.png" alt="Logo Toboolist" width="55" height="55"><h1 id="colorBackground">Toboolist</h1></span>
         </div>
     </header>
     <nav>
          <button class="navButtons" id="firstButton"> Add Task</button>
          <button class="navButtons" id="secondButton"> Add Selection</button>
     </nav>
-    <main>
-        <section>
-            <h2> New Task</h2>
-            <ul>
-                <li> Quarterly Newsletter <button class="listButtons" id="buttonColorBlue">Editorial</button></li>
-            </ul>
-         </section>
-        
-        <section>
-            <h2>Today</h2>
-            <ul>
-                <li><span><img src="" alt=""></span>Recruiting blog post <button class="listButtons" id="buttonColorBlue">Editorial</button></li>
-                <li>Mobile app launch <button class="listButtons" id="buttonColorPurple">Q1 Goals</button> </li>
-                <li>Interview John H. <button class="listButtons" id="buttonColorGreen">Recruiting</button> </li>
-                <li>Summit update to mobile storefronts <button class="listButtons" id="buttonColorOrange">Mobile</button> </li>
-            </ul>
-        
-        </section>
+        <main>
+            <section>
+                <h2> New Task</h2>
+                <ul>
+                    <li>
+                        <span class="checkedIcon">&check;</span> 
+                        Quarterly Newsletter 
+                        <button class="listButtons" id="buttonColorBlue">Editorial</button>
+                    </li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Today</h2>
+                <ul>
+                    <li>
+                        <span class="checkedIcon">&check;</span> 
+                        Recruiting blog post 
+                        <button class="listButtons" id="buttonColorBlue">Editorial</button>
+                    </li>
+                    <li>
+                        <span class="checkedIcon">&check;</span> 
+                        Mobile app launch 
+                        <button class="listButtons" id="buttonColorPurple">Q1 Goals</button> 
+                    </li>
+                    <li> <span class="uncheckedIcon">X</span> 
+                        Interview John H. 
+                        <button class="listButtons" id="buttonColorGreen">Recruiting</button> 
+                    </li>
+                    <li>
+                        <span class="checkedIcon">&check;</span> 
+                        Summit update to mobile storefronts 
+                        <button class="listButtons" id="buttonColorOrange">Mobile</button> 
+                    </li>
+                </ul>
+            
+            </section>
 
-        <section>
-            <h2>Upcoming</h2>
-            <ul>
-                <li>Schedule Meeting with Alex</li>
-                <li>Homepage refresh <button class="listButtons" id="buttonColorPink">Website</button></li>
-                <li>Onboard new Sales team members <button class="listButtons" id="buttonColorGreen">Sales</button></li>
-                <li>Review editorial calendar <button class="listButtons" id="buttonColorBlue">Editorial</button></li>
-            </ul>
-        </section>
-    </main>
-        
-    
-    
-  
-</body>
+            <section>
+                <h2>Upcoming</h2>
+                <ul>
+                    <li>
+                        <span class="uncheckedIcon">X</span> 
+                        Schedule Meeting with Alex
+                    </li>
+                    <li>
+                        <span class="checkedIcon">&check;</span> 
+                        Homepage refresh 
+                        <button class="listButtons" id="buttonColorPink">Website</button>
+                    </li>
+                    <li>
+                        <span class="checkedIcon">&check;</span> 
+                        Onboard new Sales team members 
+                        <button class="listButtons" id="buttonColorGreen">Sales</button>
+                    </li>
+                    <li>
+                        <span class="checkedIcon">&check;</span> 
+                        Review editorial calendar 
+                        <button class="listButtons" id="buttonColorBlue">Editorial</button>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </body>
 </html>

@@ -1,9 +1,18 @@
 *{
+    margin: auto;
+    box-sizing: border-box;
+    padding: auto;
     background-color: lightgrey;
+}
+    
+   
+
+body{
+    font-family: 'Fredoka', sans-serif;
 }
 
 :root{
-    --colorWhite : white;
+    --colorWhite: white;
 }
 
 #headerStyle{
@@ -14,6 +23,8 @@
 #headerElements{
     display: inline-flex;
     background-color: var(--colorWhite);
+    padding-left: 1rem;
+    padding-top: 5px;
 }
 
 #colorBackground{
@@ -38,12 +49,12 @@ nav>*{
 }
 
 #firstButton{
-    background-color: rgba(14, 164, 233, 0.582);
+    background-color: rgb(14, 164, 233);
     color: white;
 }
 
 #secondButton{
-    color: grey;
+    color: rgba(128, 128, 128, 0.822);
 }
 
 main{
@@ -65,6 +76,8 @@ ul{
 }
 
 li{
+    list-style: none;
+    padding-top: 0.5rem;
     margin-bottom: 11px;
     background-color: var(--colorWhite);
 }
@@ -74,7 +87,30 @@ li{
     border-radius: 7px;
     padding: px;
 }
+.checkedIcon{
+    margin-left: -2rem;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: small;
+    padding: 3px;
+    color: rgb(65, 179, 65);
+    background-color: white;
+}
 
+.uncheckedIcon{
+    margin-left: -2rem;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: small;
+    padding: 3px;
+    color: red;
+    background-color: white;
+
+}
 #buttonColorBlue{
     background-color: rgba(14, 164, 233, 0.582);
 }
